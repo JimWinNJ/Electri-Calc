@@ -1,0 +1,294 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BAF0E8D91C826A6E000C49C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF0E8D81C826A6E000C49C0 /* AppDelegate.swift */; };
+		BAF0E8DB1C826A6E000C49C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAF0E8DA1C826A6E000C49C0 /* ViewController.swift */; };
+		BAF0E8DE1C826A6E000C49C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF0E8DC1C826A6E000C49C0 /* Main.storyboard */; };
+		BAF0E8E01C826A6E000C49C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAF0E8DF1C826A6E000C49C0 /* Assets.xcassets */; };
+		BAF0E8E31C826A6E000C49C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAF0E8E11C826A6E000C49C0 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BAF0E8D51C826A6E000C49C0 /* Electri-Calc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Electri-Calc.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF0E8D81C826A6E000C49C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAF0E8DA1C826A6E000C49C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAF0E8DD1C826A6E000C49C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAF0E8DF1C826A6E000C49C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAF0E8E21C826A6E000C49C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAF0E8E41C826A6E000C49C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAF0E8D21C826A6E000C49C0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BAF0E8CC1C826A6E000C49C0 = {
+			isa = PBXGroup;
+			children = (
+				BAF0E8D71C826A6E000C49C0 /* Electri-Calc */,
+				BAF0E8D61C826A6E000C49C0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BAF0E8D61C826A6E000C49C0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAF0E8D51C826A6E000C49C0 /* Electri-Calc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAF0E8D71C826A6E000C49C0 /* Electri-Calc */ = {
+			isa = PBXGroup;
+			children = (
+				BAF0E8D81C826A6E000C49C0 /* AppDelegate.swift */,
+				BAF0E8DA1C826A6E000C49C0 /* ViewController.swift */,
+				BAF0E8DC1C826A6E000C49C0 /* Main.storyboard */,
+				BAF0E8DF1C826A6E000C49C0 /* Assets.xcassets */,
+				BAF0E8E11C826A6E000C49C0 /* LaunchScreen.storyboard */,
+				BAF0E8E41C826A6E000C49C0 /* Info.plist */,
+			);
+			path = "Electri-Calc";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAF0E8D41C826A6E000C49C0 /* Electri-Calc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAF0E8E71C826A6E000C49C0 /* Build configuration list for PBXNativeTarget "Electri-Calc" */;
+			buildPhases = (
+				BAF0E8D11C826A6E000C49C0 /* Sources */,
+				BAF0E8D21C826A6E000C49C0 /* Frameworks */,
+				BAF0E8D31C826A6E000C49C0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Electri-Calc";
+			productName = "Electri-Calc";
+			productReference = BAF0E8D51C826A6E000C49C0 /* Electri-Calc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAF0E8CD1C826A6E000C49C0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "State Exam Pass";
+				TargetAttributes = {
+					BAF0E8D41C826A6E000C49C0 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = TPD5RSUEB6;
+					};
+				};
+			};
+			buildConfigurationList = BAF0E8D01C826A6E000C49C0 /* Build configuration list for PBXProject "Electri-Calc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAF0E8CC1C826A6E000C49C0;
+			productRefGroup = BAF0E8D61C826A6E000C49C0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAF0E8D41C826A6E000C49C0 /* Electri-Calc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAF0E8D31C826A6E000C49C0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF0E8E31C826A6E000C49C0 /* LaunchScreen.storyboard in Resources */,
+				BAF0E8E01C826A6E000C49C0 /* Assets.xcassets in Resources */,
+				BAF0E8DE1C826A6E000C49C0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAF0E8D11C826A6E000C49C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAF0E8DB1C826A6E000C49C0 /* ViewController.swift in Sources */,
+				BAF0E8D91C826A6E000C49C0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BAF0E8DC1C826A6E000C49C0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF0E8DD1C826A6E000C49C0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAF0E8E11C826A6E000C49C0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAF0E8E21C826A6E000C49C0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAF0E8E51C826A6E000C49C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAF0E8E61C826A6E000C49C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAF0E8E81C826A6E000C49C0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Electri-Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stateexampass.Electri-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BAF0E8E91C826A6E000C49C0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Electri-Calc/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.stateexampass.Electri-Calc";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAF0E8D01C826A6E000C49C0 /* Build configuration list for PBXProject "Electri-Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF0E8E51C826A6E000C49C0 /* Debug */,
+				BAF0E8E61C826A6E000C49C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAF0E8E71C826A6E000C49C0 /* Build configuration list for PBXNativeTarget "Electri-Calc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAF0E8E81C826A6E000C49C0 /* Debug */,
+				BAF0E8E91C826A6E000C49C0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAF0E8CD1C826A6E000C49C0 /* Project object */;
+}
