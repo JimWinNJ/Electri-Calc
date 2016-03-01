@@ -9,7 +9,18 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+   
+var sqft = 3
+    
+    @IBOutlet weak var sqFt3VATF: UITextField!
+    
+    @IBOutlet weak var VANeutral: UILabel!
+    
+    @IBAction func sqFtCalc(sender: AnyObject) {
+        
+        VANeutral.text = "\(sqft * Int(sqFt3VATF.text!)!)"
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
