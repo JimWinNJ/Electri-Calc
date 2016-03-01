@@ -21,6 +21,16 @@ var sqft = 3
         VANeutral.text = "\(sqft * Int(sqFt3VATF.text!)!)"
     }
     
+    
+var 125Percent = 1.25
+    
+    slider
+    
+    
+    
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
