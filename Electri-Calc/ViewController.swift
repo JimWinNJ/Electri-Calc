@@ -22,12 +22,6 @@ var sqft = 3
     }
     
     
-var 125Percent = 1.25
-    
-    slider
-    
-    
-    
     
     
     
