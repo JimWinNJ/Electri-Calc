@@ -20,10 +20,12 @@ var sqft = 3
         
         VANeutral.text = "\(sqft * Int(sqFt3VATF.text!)!)"
     }
+   
+    @IBOutlet weak var sqFtVA125: UILabel!
     
-
-    
-    
+    @IBAction func sqFtVAx125(sender: AnyObject) {
+        sqFtVA125.text = "\(1.25 * Float(VANeutral.text!)!)"
+    }
     
     
     
