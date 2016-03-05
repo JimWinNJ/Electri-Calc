@@ -107,11 +107,22 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Phase-Neutral-Total-Load-Chart" translatesAutoresizingMaskIntoConstraints="NO" id="Kty-e0-rWf">
+                                <rect key="frame" x="479" y="83" width="101" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="2zM-EZ-Izf"/>
+                                    <constraint firstAttribute="height" constant="65" id="TJD-1X-7iw"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.10980392156862745" green="0.050980392156862744" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="aj5-tL-68f" secondAttribute="bottom" id="3nl-m8-Ek6"/>
                             <constraint firstAttribute="trailingMargin" secondItem="aj5-tL-68f" secondAttribute="trailing" id="4dI-kz-q7d"/>
+                            <constraint firstItem="Kty-e0-rWf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="G54-4F-kjQ"/>
+                            <constraint firstItem="Kty-e0-rWf" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="QP7-RF-TVn"/>
+                            <constraint firstItem="Kty-e0-rWf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="j6e-uG-pU4"/>
+                            <constraint firstItem="Kty-e0-rWf" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailingMargin" id="nPL-jb-cJs"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="F7F-v0-pAz"/>
@@ -148,9 +159,20 @@
                                     <segue destination="fKq-8W-RKJ" kind="show" id="uJo-DA-o88"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Phase-Neutral-Total-Load-Chart" translatesAutoresizingMaskIntoConstraints="NO" id="oyD-Sn-dQr">
+                                <rect key="frame" x="479" y="77" width="101" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="101" id="BQP-cH-TqY"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="101" id="HMu-0s-Jbf"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="K7S-qc-3vf"/>
+                                    <constraint firstAttribute="height" constant="65" id="ms2-G2-fpI"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.10980392156862745" green="0.050980392156862744" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="oyD-Sn-dQr" firstAttribute="top" secondItem="ocT-oD-1bm" secondAttribute="bottom" constant="8" id="ICc-r6-w4m"/>
+                            <constraint firstItem="oyD-Sn-dQr" firstAttribute="trailing" secondItem="aGd-6y-Tc7" secondAttribute="trailingMargin" id="hg4-bS-l7M"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ICa-WT-Qar" secondAttribute="trailing" id="nK5-4x-LxK"/>
                             <constraint firstItem="X8r-eW-iz1" firstAttribute="top" secondItem="ICa-WT-Qar" secondAttribute="bottom" id="p4X-Gz-F9W"/>
                         </constraints>
@@ -183,10 +205,23 @@
                                     <segue destination="Lyc-a6-yKl" kind="show" id="EHW-7J-wgE"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Phase-Neutral-Total-Load-Chart" translatesAutoresizingMaskIntoConstraints="NO" id="uPH-YB-PA1">
+                                <rect key="frame" x="479" y="72" width="101" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="65" id="AP8-oJ-p9U"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="101" id="FNi-tl-q9l"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="Rkh-A2-rY1"/>
+                                    <constraint firstAttribute="width" constant="101" id="jeV-ho-z4F"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="taD-8i-R4z"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="u8B-na-4Ek"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.10980392156862745" green="0.050980392156862744" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
+                            <constraint firstItem="uPH-YB-PA1" firstAttribute="trailing" secondItem="UVk-lw-SoA" secondAttribute="trailingMargin" id="5Su-hG-HPY"/>
                             <constraint firstItem="ehu-Wo-rok" firstAttribute="top" secondItem="vdt-26-CBr" secondAttribute="bottom" id="GaV-CX-hEb"/>
+                            <constraint firstItem="uPH-YB-PA1" firstAttribute="top" secondItem="P5q-UN-TeQ" secondAttribute="bottom" constant="8" id="kk3-vT-Juo"/>
                             <constraint firstAttribute="trailingMargin" secondItem="vdt-26-CBr" secondAttribute="trailing" id="ssi-S8-p4b"/>
                         </constraints>
                     </view>
@@ -218,11 +253,26 @@
                                     <segue destination="8YM-lV-dDO" kind="show" id="tb7-Uo-tkl"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Phase-Neutral-Total-Load-Chart" translatesAutoresizingMaskIntoConstraints="NO" id="bch-Pm-PY8">
+                                <rect key="frame" x="479" y="72" width="101" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="2iL-H1-Zfb"/>
+                                    <constraint firstAttribute="width" constant="101" id="76X-GU-cKQ"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="101" id="JWP-yn-ve3"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="Wes-9o-emG"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="ggA-lg-T1z"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="itP-Om-0ab"/>
+                                    <constraint firstAttribute="height" constant="65" id="jiq-lv-Nkt"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="oct-Fp-Px4"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.10980392156862745" green="0.050980392156862744" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstItem="yVJ-8t-Saw" firstAttribute="top" secondItem="wvw-sO-mhG" secondAttribute="bottom" id="KfA-WV-Idc"/>
+                            <constraint firstItem="bch-Pm-PY8" firstAttribute="top" secondItem="scF-CK-rAP" secondAttribute="bottom" constant="8" id="QTT-n8-6uL"/>
                             <constraint firstAttribute="trailingMargin" secondItem="wvw-sO-mhG" secondAttribute="trailing" id="tqu-za-ZXG"/>
+                            <constraint firstItem="bch-Pm-PY8" firstAttribute="trailing" secondItem="1hB-bY-acn" secondAttribute="trailingMargin" id="u5J-hZ-rtX"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -253,11 +303,28 @@
                                     <segue destination="fvB-1G-dbU" kind="show" id="B39-80-Mzi"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Phase-Neutral-Total-Load-Chart" translatesAutoresizingMaskIntoConstraints="NO" id="Bpc-I5-FyP">
+                                <rect key="frame" x="479" y="72" width="101" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="0nU-MB-g4a"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="1sX-Hf-0ag"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="9SK-nh-hOU"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="JTB-0w-mTp"/>
+                                    <constraint firstAttribute="width" constant="101" id="OBm-EP-fI2"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="101" id="OEz-NS-5Il"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="Pg1-KD-uC6"/>
+                                    <constraint firstAttribute="height" constant="65" id="bBt-wT-70N"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="kQG-aW-12J"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="zNT-6L-ged"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="0.10980392156862745" green="0.050980392156862744" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="pUC-R8-ZNC" secondAttribute="trailing" id="0Op-i9-TWH"/>
+                            <constraint firstItem="Bpc-I5-FyP" firstAttribute="trailing" secondItem="Av7-dD-tSq" secondAttribute="trailingMargin" id="LZp-We-byX"/>
                             <constraint firstItem="LgH-6N-2bM" firstAttribute="top" secondItem="pUC-R8-ZNC" secondAttribute="bottom" id="Xcy-ke-2Gn"/>
+                            <constraint firstItem="Bpc-I5-FyP" firstAttribute="top" secondItem="sJo-b1-4x5" secondAttribute="bottom" constant="8" id="mqW-lu-MVv"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -276,7 +343,30 @@
                     <view key="view" contentMode="scaleToFill" id="1r2-iT-H0c">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Phase-Neutral-Total-Load-Chart" translatesAutoresizingMaskIntoConstraints="NO" id="QXQ-8t-JK6">
+                                <rect key="frame" x="465" y="72" width="101" height="65"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="4dc-jE-H5s"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="Abs-nG-BgZ"/>
+                                    <constraint firstAttribute="height" constant="65" id="LKQ-bE-2LL"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="LaP-gb-pCR"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="PUm-Nn-1oB"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="101" id="T3P-E1-og7"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="VDu-6s-O9s"/>
+                                    <constraint firstAttribute="height" relation="lessThanOrEqual" constant="65" id="Zzv-Uc-1Ur"/>
+                                    <constraint firstAttribute="width" constant="101" id="cfD-Ns-OZn"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="lZN-kQ-PiR"/>
+                                    <constraint firstAttribute="width" relation="lessThanOrEqual" constant="101" id="x7K-qk-DuO"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="65" id="ynm-WA-rPf"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
                         <color key="backgroundColor" red="0.10980392156862745" green="0.050980392156862744" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="QXQ-8t-JK6" firstAttribute="top" secondItem="IT7-VC-ez7" secondAttribute="bottom" constant="8" id="Bvg-uk-57U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="QXQ-8t-JK6" secondAttribute="trailing" id="LUX-Aq-QBY"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Tue-9V-qis" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -304,6 +394,7 @@
     </scenes>
     <resources>
         <image name="MotorLoads&gt;&gt;" width="298" height="40"/>
+        <image name="Phase-Neutral-Total-Load-Chart" width="220" height="133"/>
         <image name="PhaseLoads&gt;&gt;" width="290" height="40"/>
         <image name="ReceptacleLoads&gt;&gt;" width="390" height="40"/>
         <image name="ServiceCalculation&gt;&gt;" width="430" height="40"/>
