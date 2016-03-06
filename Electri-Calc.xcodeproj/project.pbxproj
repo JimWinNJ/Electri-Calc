@@ -287,6 +287,7 @@
 				BAF0E8E91C826A6E000C49C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
